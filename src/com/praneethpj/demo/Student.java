@@ -33,6 +33,15 @@ public class Student {
         this.marks = marks;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+
     String name;
     String age;
     List marks;

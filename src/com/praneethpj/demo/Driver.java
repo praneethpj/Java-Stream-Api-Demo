@@ -13,6 +13,6 @@ public class Driver {
         studentList.add(new Student("Oshan","16", Arrays.asList("65","78","90")));
         studentList.add(new Student("Anjalee","8", Arrays.asList("96","100","46")));
 
-        Stream.of(studentList);
+        studentList.stream().forEach(student-> System.out.println(student));
     }
 }
