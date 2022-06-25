@@ -7,7 +7,7 @@ public class Student {
         return name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
@@ -19,7 +19,7 @@ public class Student {
         this.name = name;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -27,7 +27,7 @@ public class Student {
         this.marks = marks;
     }
 
-    public Student(String name, String age, List marks) {
+    public Student(String name, int age, List marks) {
         this.name = name;
         this.age = age;
         this.marks = marks;
@@ -43,6 +43,6 @@ public class Student {
     }
 
     String name;
-    String age;
+    int age;
     List marks;
 }
